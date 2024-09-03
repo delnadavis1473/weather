@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    background: linear-gradient(130deg,#62cff4,#2c67f2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container{
+    background: linear-gradient(130deg,#00366b,#1a7196);
+    width: 850px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.icon{
+    max-width: 50%;
+    height: 200px;
+    align-self: center;
+}
+
+.col-1{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 20px;
+}
+
+.col-1 h2{
+    padding: 20px 0 20px 0;
+}
+
+.col-1 h1{
+    font-weight: 400;
+}
+
+.col-1 h3{
+    font-weight: 500;
+}
+.col-1 p{
+    padding: 5px 0 5px 0;
+
+}
+
+.col-1 .p1{
+    font-weight: 700;
+    font-weight: 500;
+}
+
+.col-1 .p2{
+    font-size: .9em;
+    font-weight: 300;
+}
+
+
+
+
+.col-2{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #4682b4 ;
+    padding: 20px 10px 20px 10px;
+}
+
+.icon2
+{
+    width: 80px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 80px 5px;
+    border: 1px solid black;
+}
+
+.glass{
+    color: black;
+}
+.col-2 input{
+    background-color: #4682b4 ;
+    border: none;
+    margin-bottom: 10px;  
+    padding-left: 5px;
+}
+
+.col-2 input::placeholder{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.col-2 h6{
+    padding-top: 10px;
+}
+
+
+
+
+.list{
+    list-style: none;
+    line-height: 30px;
+}
+
+.t1{
+    color: black;
+    font-size: medium;
+}
+
+/* Media Queries */
+@media(max-width:870px){
+.container{
+    width: 550px;
+}
+
+.icon{
+    max-width: 50%;
+    height: 180px;
+}
+
+
+.col-1 h2{
+    padding: 20px 0 20px 0;
+    font-size: 1.2em;
+}
+
+.col-1 h1{
+    font-weight: 400;
+    font-size:  1.8em;
+}
+
+.col-1 h3{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.col-1 p{
+    padding: 5px 0 5px 0;
+
+}
+
+.col-1 .p1{
+ font-size: .9em;
+}
+
+.col-1 .p2{
+    font-size: .6em;
+}
+
+.icon2{
+    margin: 30px 0 60px 5px;
+    width: 70px;
+    height: 40px;
+}
+.t1{
+    font-size: .9em;
+}
+
+.t2{
+    font-size: .9em;
+}
+}
+
+@media(max-width:730px){
+    .container{
+        width:400px;
+    }
+
+    .icon{
+        max-width: 50%;
+        height: 120px
+    }
+
+
+    .col-1 h2{
+        padding: 20px 0 20px 0;
+        font-size: 1.2em;
+    }
+
+    .col-1 h1{
+        font-weight: 400;
+        font-size:  1.5em;
+    }
+
+    .col-1 h3{
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .col-1 p{
+        padding: 5px 0 5px 0;
+
+    }
+
+    .col-1 .p1{
+     font-size: .5em;
+    }
+
+    .col-1 .p2{
+        font-size: .3em;
+    }
+
+    .icon2{
+        margin: 25px 0 50px 5px;
+        width: 60px;
+        height: 30px;
+    }
+    .t1{
+        font-size: .7em;
+    }
+
+    .t2{
+        font-size: .7em;
+    }
+
+    .list{
+        line-height: 20px;
+    }
+
+    }
+
+
+
+@media(max-width:530px){
+    .container{
+        width:350px;
+    }
+
+    .icon{
+        max-width: 50%;
+        height: 80px
+    }
+
+
+    .col-1 h2{
+        padding: 20px 0 20px 0;
+        font-size: .9em;
+    }
+
+    .col-1 h1{
+        font-weight: 400;
+        font-size:  1.1em;
+    }
+
+    .col-1 h3{
+        font-weight: 500;
+        font-size: .8em;
+    }
+    .col-1 p{
+        padding: 5px 0 5px 0;
+
+    }
+
+    .col-1 .p1{
+     font-size: .4em;
+    }
+
+    .col-1 .p2{
+        font-size: 4px;
+    }
+
+    .icon2{
+        margin: 20px 0 30px 5px;
+        width: 35px;
+        height: 20px;
+    }
+
+    .glass{
+        font-size: 10px;
+    }
+    .t1{
+        font-size: .6em;
+    }
+
+    .t2{
+        font-size: .6em;
+    }
+
+    .list{
+        line-height: 15px;
+    }
+
+    }
